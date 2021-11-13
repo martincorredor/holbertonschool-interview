@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const query = require('request');
+import query from 'request';
 const filmID = process.argv[2];
 
 const names = [];
